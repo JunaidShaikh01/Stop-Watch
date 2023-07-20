@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 5, 28, 0.5) , rgba(0, 5, 28, 0.5)  , rgba(0, 5, 28, 0.5)),url(image.jpg)no-repeat center center/ cover;  
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 45%;
+    height: 40vh;
+    background-color: rgba(156, 175, 206, 0.4);
+    border-radius: 30px;
+    box-shadow: 0 0 1px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+    color: aliceblue;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: rgba(31, 53, 89, 0.601);
+    width: 50px;
+}
+
+.play {
+    background-color: rgba(0, 55, 128, 0.295);
+}
+
+.pause {
+    background-color: rgba(0, 42, 96, 0.295);
+}
+
+.reset {
+    background-color: rgba(0, 41, 94, 0.295);
+}
